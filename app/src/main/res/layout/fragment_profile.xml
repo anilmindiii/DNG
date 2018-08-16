@@ -1,0 +1,326 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context="com.dng.fragment.ProfileFragment">
+
+    <RelativeLayout
+        android:id="@+id/headerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="?actionBarSize"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/header_bg">
+
+        <TextView
+            android:fontFamily="@font/mavenpro_medium"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Profile"
+            android:gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:textSize="@dimen/_16sdp"/>
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:src="@drawable/edit_icon"
+            android:layout_centerInParent="true"
+            android:layout_marginRight="@dimen/_10sdp"
+            android:layout_alignParentRight="true" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+
+            <ImageView
+                android:id="@+id/profile_Img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"/>
+
+
+            <ImageView
+                android:layout_width="@dimen/_37sdp"
+                android:layout_height="@dimen/_37sdp"
+                android:src="@drawable/done_icon"
+                android:layout_marginEnd="30dp"
+                android:layout_marginTop="180dp"
+                android:id="@+id/circularImageView"
+                android:layout_alignParentEnd="true" />
+
+
+            <LinearLayout
+                android:layout_below="@+id/profile_Img"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/user_active_icon_pro"
+                        android:padding="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Username"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Jonh Deo"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/mail_active_icon"
+                        android:padding="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Email Address"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="JonhDeo@mindiii.com"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/phone_active_icon"
+                        android:padding="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Phone"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="125235"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/phone_active_icon"
+                        android:padding="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Phone carrier"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="T-Mobile"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/pin_active_icon"
+                        android:padding="@dimen/_14sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Address"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_5sdp"/>
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="5th Flor, Mindiii System "
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="@dimen/_20sdp"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/daily_report"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="@dimen/_50sdp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/daily_report_active_icon"
+                        android:padding="@dimen/_14sdp"/>
+
+
+                    <TextView
+                        android:fontFamily="@font/poppins_regular"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:text="Daily Reports"
+                        android:maxLines="1"
+                        android:textSize="@dimen/_12sdp"
+                        android:layout_marginLeft="@dimen/_50sdp" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/next_icon"
+                        android:padding="@dimen/_16sdp"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerInParent="true" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.5dp"
+                        android:background="@color/gray"
+                        android:layout_alignParentBottom="true"/>
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

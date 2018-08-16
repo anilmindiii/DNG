@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:layout_marginLeft="@dimen/_5sdp"
+    android:layout_marginRight="@dimen/_5sdp"
+    android:padding="@dimen/_2sdp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_220sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:background="@drawable/bg_dialog_with_rounded_corners"
+        android:paddingBottom="@dimen/_3sdp">
+
+        <ImageView
+            android:id="@+id/dialog_decline_button"
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/rounded_primary_dark"
+            android:src="@drawable/ic_dialog_close_dark" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_marginRight="@dimen/_10sdp">
+
+            <TextView
+                android:id="@+id/dialog_header"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:background="@color/white"
+                android:fontFamily="@font/poppins_light"
+                android:gravity="center"
+                android:text="@string/cheque_dialog_header"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_14ssp" />
+
+            <EditText
+                android:id="@+id/ed_cheque_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/dialog_header"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:background="@null"
+                android:fontFamily="@font/poppins_regular"
+                android:hint="@string/hint_enter_cheque_number"
+                android:imeOptions="actionDone"
+                android:textColor="@color/colorPrimary"
+                android:inputType="number"
+                android:maxLength="16"
+                android:maxLines="1"
+                android:textColorHint="@color/grey"
+                android:textSize="@dimen/_12ssp" />
+
+            <View
+                android:id="@+id/dialog_view"
+                android:layout_width="match_parent"
+                android:layout_height="0.8dp"
+                android:layout_below="@id/ed_cheque_number"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:background="@color/gray" />
+
+            <TextView
+                android:id="@+id/btn_pay"
+                android:layout_width="@dimen/_120sdp"
+                android:layout_height="@dimen/_35sdp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:background="@drawable/rounded_primary"
+                android:backgroundTint="@color/colorPrimary"
+                android:fontFamily="@font/poppins_regular"
+                android:gravity="center"
+                android:text="@string/next_btn_text"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/white"
+                android:textSize="@dimen/_14ssp" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/bg_circle"
+        android:elevation="@dimen/_2sdp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/cash_cheque_dialog_icon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:padding="@dimen/_20sdp"
+            android:src="@drawable/check" />
+    </RelativeLayout>
+
+</RelativeLayout>

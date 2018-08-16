@@ -1,0 +1,206 @@
+<resources>
+    <string name="app_name">DNG</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="dont_t_have_an_account_sign_up">Dont\'t have an account? Sign Up</string>
+    <string name="username">Username</string>
+    <string name="new_task">New Task</string>
+    <string name="History">History</string>
+    <string name="manager">Manager</string>
+    <string name="profile">Profile</string>
+    <string name="setting">Setting</string>
+
+
+    <string name="text_take_photo">Take Photo</string>
+    <string name="text_chose_gellery">From Gallery</string>
+    <string name="text_add_photo">Add Photo</string>
+    <string name="text_cancel">Cancel</string>
+
+    <string name="facebook_app_id">298920350608836</string>
+    <string name="fb_login_protocol_scheme">fb298920350608836</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="_1">+1</string>
+
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyB-NNBSh_cGQyWkzMxO7CFWtGF3twcnEMM</string>
+    <string name="on">You Are On Duty</string>
+    <string name="off">You Are Off Duty</string>
+    <string name="non_verify">Firstly you have to verify your account via mail. Create username and password. Please check your mail.</string>
+    <string name="not_approved">You are currently not approved by Admin. You have to wait until Admin approve your account.</string>
+    <string name="ton"> tons</string>
+    <string name="check_internet">Check your network connection</string>
+    <string name="password">Password</string>
+
+    // Register Activity
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="external_storage_permission_denied">You denied permission cannot select image</string>
+    <string name="camera_permission_denied">Your permission denied</string>
+
+    <string name="register_full_name_null">Enter fullname</string>
+    <string name="register_email_null">Enter email address</string>
+    <string name="register_email_invalid">Enter valid email address</string>
+    <string name="register_phone_no_null">Enter phone number</string>
+    <string name="register_address_null">Select Address</string>
+    <string name="register_profile_image_null">please select profile image</string>
+
+    <string name="driving_license_null">Enter driving license number</string>
+    <string name="license_expiry_date_null">Select license expiry date</string>
+    <string name="license_image_null">Upload license image</string>
+    <string name="emergency_name_null">Enter contact name</string>
+    <string name="relationship_null">Enter relationship</string>
+    <string name="contact_no_null">Enter phone number</string>
+
+    // Login Activity
+    <string name="login_email_null">Enter email address</string>
+    <string name="login_password_null">Enter password</string>
+    <string name="login_password_invalid">Atleast 6 characters required</string>
+
+    // Main Activity
+    <string name="new_task_heading">New Task</string>
+    <string name="history_heading">History</string>
+    <string name="manager_heading">Manager</string>
+    <string name="profile_heading">Profile</string>
+    <string name="settings_heading">Settings</string>
+
+    // New Task Fragment
+    <string name="order_number_heading">Order Number</string>
+    <string name="pit_information_heading">PIT Information</string>
+    <string name="customer_information_heading">Customer Info</string>
+    <string name="heading_qty">Qty :</string>
+    <string name="heading_po_number">P.O. Number :</string>
+    <string name="heading_product">Product :</string>
+    <string name="heading_payment_method">Payment Method :</string>
+    <string name="heading_amount">Amount :</string>
+    <string name="heading_shifts">No. of Shifts :</string>
+    <string name="heading_customer_payment_status">Customer Payment Status :</string>
+    <string name="accept_button_text">Accept</string>
+    <string name="reject_button_text">Reject</string>
+    <string name="start_route_button_text">Start Loading Route</string>
+    <string name="pit_payment_already_done_heading">Pit Payment Status :</string>
+    <string name="pit_payment_status_completed">Completed</string>
+
+    // Start Route Dialog
+    <string name="start_route_to_the_pit_text">Start route to the PIT</string>
+    <string name="start_route_to_the_delivery_text">Start the route to the delivery</string>
+    <string name="start_now_btn_text">Start now</string>
+    <string name="remember_me_btn_text">Remember me in 5 Min</string>
+
+    // Loading Details Fragment
+    <string name="loading_details_heading">Loading Details</string>
+    <string name="material_cost_heading">Material cost</string>
+    <string name="cash_heading">Cash</string>
+    <string name="credit_card_heading">Credit Card</string>
+    <string name="account_heading">Account</string>
+    <string name="cheque_heading">Cheque</string>
+    <string name="upload_receipt_heading">Upload Receipt</string>
+    <string name="add_description_heading">Add description</string>
+    <string name="out_for_delivery_btn">Start Delivery Route</string>
+    <string name="start_delivery_detail">Go to Delivery Details</string>
+    <string name="pay_now_btn">Pay Now</string>
+    <string name="payment_info_null">Please complete payment procedure</string>
+    <string name="pit_payment_already_done">PIT payment is already done.</string>
+    <string name="pit_payment_in_progress">Pending</string>
+
+    // Cash Payment Dialog
+    <string name="cash_payment_dialog_heading">Payment details</string>
+    <string name="cash_payment_done_button">Done</string>
+    <string name="hint_enter_amount">Enter Amount</string>
+    <string name="amount_null">Please enter amount</string>
+    <string name="amount_invalid">Please enter valid amount</string>
+
+    <string name="hint_enter_cheque_number">Enter cheque number</string>
+    <string name="cheque_number_null">Please enter cheque number</string>
+    <string name="cheque_number_invalid">Atleast 6 characters required</string>
+    <string name="cheque_dialog_header">Cheque Info</string>
+    <string name="next_btn_text">Next</string>
+
+    <string name="upload_receipt_image_null">Please upload receipt image</string>
+    <string name="description_null">Please enter description</string>
+    <string name="pay_amount_null">Please enter amount</string>
+
+
+    // Payment Details Dialog
+    <string name="total_amount_heading">Total Amount :</string>
+    <string name="minimum_payment_heading">Minimum Payment :</string>
+    <string name="full_payment_radio_heading">Full Payment</string>
+    <string name="minimum_payment_radio_heading">Minimum Payment</string>
+
+    // TimerAlertBroadcastReceiver
+    <string name="timer_broadcast_message">Now you can start the route.</string>
+
+    // Delivery Details Fragment
+    <string name="delivery_details_heading">Delivery Details</string>
+    <string name="payment_method_heading">Payment Method :</string>
+    <string name="customer_amount_heading">Amount :</string>
+    <string name="skip_card_view_text">Skip</string>
+    <string name="customer_payment_method_heading">Customer Payment method</string>
+    <string name="delivery_pictures_heading">Delivery pictures</string>
+    <string name="before_delivery_heading">Before Delivery</string>
+    <string name="after_delivery_heading">After Delivery</string>
+    <string name="waiver_heading">Waiver</string>
+    <string name="customer_payment_receipt">Upload Receipt</string>
+    <string name="close_order_btn_text">Close Order</string>
+
+    <string name="before_upload_image_success">Before delivery image uploaded successfully</string>
+    <string name="after_upload_image_success">After delivery image uploaded successfully</string>
+    <string name="waiver_upload_image_success">Delivery receipt uploaded successfully</string>
+
+    <string name="before_upload_image_null">Please upload before delivery image</string>
+    <string name="after_upload_image_null">Please upload after delivery image</string>
+    <string name="waiver_receipt_null">Please upload waiver receipt</string>
+    <string name="customer_payment_receipt_null">Please upload customer payment receipt</string>
+    <string name="customer_payment_already_done_heading">Customer Payment Status :</string>
+
+    <string name="toast_enter_before_image">Please enter before delivery image</string>
+
+    // Cropper
+    <!--Picker text-->
+    <string name="crop_image_activity_title">Crop Image</string>
+    <string name="crop_image_menu_rotate_left">Rotate counter clockwise</string>
+    <string name="crop_image_menu_rotate_right">Rotate</string>
+    <string name="crop_image_menu_crop">Crop</string>
+    <string name="pick_image_intent_chooser_title">Select source</string>
+    <string name="result_image_desc">crop result</string>
+    <string name="pick_image_intent_text">Choose an image</string>
+
+
+    // Personal Info Fragment
+    <string name="update_username_null">Enter name</string>
+    <string name="update_contact_null">Enter contact</string>
+    <string name="update_address_null">Select address</string>
+    <string name="personal_profile_update_success">Profile updated successfully</string>
+
+    // Legal Info Fragment
+    <string name="legal_name_null">Enter name</string>
+    <string name="legal_relation_null">Enter relationship</string>
+    <string name="legal_contact_null">Enter contact</string>
+    <string name="legal_info_update_success">Legal info updated successfully</string>
+
+    // Change Password
+    <string name="change_password_header">Change Password</string>
+    <string name="hint_old_password">Enter old password</string>
+    <string name="hint_new_password">Enter new password</string>
+    <string name="change_password_done_button">Done</string>
+    <string name="old_password_null">Enter old password</string>
+    <string name="new_password_null">Enter new password</string>
+    <string name="old_password_invalid">Invalid old password</string>
+    <string name="old_new_pasword_same">New password can\'t be same</string>
+    <string name="password_update_success">Password updated successfully, Please login again.</string>
+
+    // Profile Terminal Fragment
+    <string name="profile_image_updated_success">Profile image updated successfully</string>
+
+    // Show History Item
+    <string name="heading_pit_payment_status">Pit Payment Status :</string>
+
+
+    // Pit Info
+    <string name="history_heading_payment_method">Payment Method :</string>
+    <string name="history_heading_payment_type">Payment Type :</string>
+    <string name="history_heading_amount">Amount :</string>
+    <string name="history_heading_pit_payment_status">Pit Payment Status :</string>
+    <string name="history_heading_description">Description :</string>
+    <string name="history_heading_pit_shift">Shift :</string>
+    <string name="history_heading_date">Date :</string>
+    <string name="payment_status_pending">Pending</string>
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5b8598</color>
+    <color name="colorPrimaryDark">#4ab3ce</color>
+    <color name="colorPrimaryExtDark">#009eff</color>
+    <color name="colorAccent">#4ab3ce</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="dark_transperant">#66000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_transperent">#50FFFFFF</color>
+    <color name="colorPrimary_alpha10">#1003A7E9</color>
+    <color name="grey">#828282</color>
+    <color name="btn_login">#4ab3ce</color>
+    <color name="light_black">#000</color>
+    <color name="blue">#3b5998</color>
+    <color name="footer_bg">#fff</color>
+    <color name="main_background">#f1f1f1</color>
+    <color name="accept_bg">#e6ffe6</color>
+    <color name="reject_bg">#ffe6e6</color>
+
+    <color name="light_gray">#ffefefef</color>
+    <color name="gray">#999999</color>
+    <color name="gray2">#E0E0E0</color>
+    <color name="gray3">#ececec</color>
+
+    <color name="orange">#ff6600</color>
+    <color name="green">#7fb700</color>
+    <color name="red">#e71c18</color>
+</resources>
