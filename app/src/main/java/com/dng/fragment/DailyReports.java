@@ -47,7 +47,7 @@ public class DailyReports extends Fragment {
 
     private String mParam1;
     private String mParam2;
-    private ImageView iv_back;
+    private ImageView iv_back,iv_filter;
     private TextView tv_no_of_delivery, tv_fuel_cost,tv_no_of_loading, tv_money_paid_to_owner, tv_money_paid_to_manager, btn_submit, tv_date;
     private EditText ed_total_amount;
     private DailyReportInfo dailyReportInfo;
@@ -86,6 +86,7 @@ public class DailyReports extends Fragment {
         View view = inflater.inflate(R.layout.fragment_daily_reports, container, false);
         iv_back = view.findViewById(R.id.iv_back);
         cv_fuel_cost = view.findViewById(R.id.cv_fuel_cost);
+        iv_filter = view.findViewById(R.id.iv_filter);
         iv_back.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -97,7 +98,7 @@ public class DailyReports extends Fragment {
 
        // DailyReport(date);
 
-        btn_submit.setOnClickListener(new View.OnClickListener() {
+      /*  btn_submit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 String status = "";
@@ -122,9 +123,9 @@ public class DailyReports extends Fragment {
 
 
             }
-        });
+        });*/
 
-        ly_date_filter.setOnClickListener(new View.OnClickListener() {
+        iv_filter.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setDateField();

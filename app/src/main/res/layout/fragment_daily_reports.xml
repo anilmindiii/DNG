@@ -32,6 +32,16 @@
             android:textColor="@color/colorPrimary"
             android:textSize="@dimen/_16sdp" />
 
+        <ImageView
+            android:id="@+id/iv_filter"
+            android:layout_width="@dimen/_40sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:padding="@dimen/_10sdp"
+            android:src="@drawable/ico_filter"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:tint="@color/colorPrimaryDark"/>
+
     </RelativeLayout>
 
     <ScrollView
@@ -51,7 +61,8 @@
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_85sdp"
-                android:layout_margin="@dimen/_5sdp">
+                android:layout_margin="@dimen/_5sdp"
+                android:visibility="gone">
 
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -141,59 +152,6 @@
             </android.support.v7.widget.CardView>
 
             <android.support.v7.widget.CardView
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/_45sdp"
-                android:layout_margin="@dimen/_5sdp">
-
-                <RelativeLayout
-                    android:id="@+id/ly_date_filter"
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent">
-
-                    <ImageView
-                        android:layout_width="wrap_content"
-                        android:layout_height="@dimen/_38sdp"
-                        android:layout_alignParentLeft="true"
-                        android:layout_centerInParent="true"
-                        android:layout_gravity="center|left"
-                        android:padding="@dimen/_10sdp"
-                        android:src="@drawable/license_expaire"
-                        android:tint="@color/grey" />
-
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_centerVertical="true"
-                        android:layout_gravity="center"
-                        android:layout_marginLeft="@dimen/_40sdp"
-                        android:fontFamily="@font/poppins_medium"
-                        android:text="Date filter"
-                        android:textColor="@color/colorPrimaryDark"
-                        android:textSize="@dimen/_12sdp" />
-
-                    <TextView
-                        android:id="@+id/tv_date"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:layout_alignParentBottom="true"
-                        android:layout_alignParentRight="true"
-                        android:layout_gravity="bottom|right"
-                        android:layout_marginLeft="@dimen/_120sdp"
-                        android:layout_marginRight="@dimen/_10sdp"
-                        android:fontFamily="@font/poppins_regular"
-                        android:gravity="right|center"
-                        android:textColor="@color/black">
-
-                    </TextView>
-
-
-                </RelativeLayout>
-
-
-            </android.support.v7.widget.CardView>
-
-
-            <android.support.v7.widget.CardView
                 android:id="@+id/cv_fuel_cost"
                 android:layout_width="match_parent"
                 android:layout_height="@dimen/_45sdp"
@@ -207,7 +165,7 @@
                         android:layout_width="@dimen/_20sdp"
                         android:layout_height="@dimen/_20sdp"
                         android:layout_gravity="center|left"
-                      android:layout_centerVertical="true"
+                        android:layout_centerVertical="true"
                         android:layout_marginLeft="@dimen/_10sdp"
                         android:src="@drawable/gas_station"
                         android:tint="#3333"/>
@@ -242,6 +200,61 @@
 
 
             </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:layout_margin="@dimen/_5sdp">
+
+                <RelativeLayout
+                    android:id="@+id/ly_date_filter"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/_38sdp"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:layout_gravity="center|left"
+                        android:padding="@dimen/_10sdp"
+                        android:src="@drawable/license_expaire"
+                        android:tint="@color/grey" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="@dimen/_40sdp"
+                        android:fontFamily="@font/poppins_medium"
+                        android:text="Filter Date"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="@dimen/_12sdp" />
+
+                    <TextView
+                        android:id="@+id/tv_date"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_gravity="bottom|right"
+                        android:layout_marginLeft="@dimen/_120sdp"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:fontFamily="@font/poppins_regular"
+                        android:gravity="right|center"
+                        android:textColor="@color/black">
+
+                    </TextView>
+
+
+                </RelativeLayout>
+
+
+            </android.support.v7.widget.CardView>
+
+
+
 
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
@@ -444,7 +457,8 @@
                 android:text="Save"
                 android:textAllCaps="false"
                 android:textColor="@color/white"
-                android:textSize="@dimen/_14ssp" />
+                android:textSize="@dimen/_14ssp"
+                android:visibility="gone"/>
 
 
         </LinearLayout>
